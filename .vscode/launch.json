@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MailFeedApplication",
+            "request": "launch",
+            "mainClass": "com.example.mailFeed.MailFeedApplication",
+            "projectName": "mailFeed"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-DiscoveryApplication<discovery>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
